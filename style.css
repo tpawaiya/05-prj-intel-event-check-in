@@ -147,6 +147,11 @@ button:hover {
   box-shadow: 0 6px 15px rgba(0, 113, 197, 0.3);
 }
 
+#checkInBtn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
 /* Icon spacing */
 .fas {
   margin-right: 8px;
@@ -284,6 +289,7 @@ button .fas {
   flex: 1;
   display: flex;
   gap: 10px;
+  min-width: 0;
 }
 
 select {
